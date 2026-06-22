@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+
+
+    <form>
+        <div class="header text-center bg-primary ">
+            <p class="title mb-0 d-flex align-items-center justify-content-center">
+                <i class="bi bi-house-gear-fill me-2"></i> سیستم مدیریت انبار
+            </p>
+        </div>
+
+        <div class="username mb-3">
+            <label for="username" class="form-label">نام کاربری</label>
+            <div class="input-group">
+                <span class="input-group-text rounded-0 rounded-end-1"><i class="bi bi-person-fill"></i></span>
+                <input type="text" class="form-control rounded-0 rounded-start-1" id="username"
+                    placeholder="نام کاربری خود را وارد کنید">
+            </div>
+        </div>
+
+
+        <div class="password mb-3">
+            <label for="password" class="form-label">رمز عبور</label>
+            <div class="input-group ">
+                <span class="input-group-text rounded-0 rounded-end-1"><i class="bi bi-person-fill"></i></span>
+                <input type="password" class="form-control rounded-0 rounded-start-1"
+                    placeholder="رمز عبور را وارد کنید">
+            </div>
+        </div>
+
+
+        <div class="mb-3 save">
+            <div>
+                <input type="checkbox" class="" id="rememberMe">
+                <label class="form-check-label" for="rememberMe">مرا به خاطر بسپار</label>
+            </div>
+        </div>
+
+
+        <div class="submit">
+            <button type="submit" class="btn btn-primary btn-lg py-2 d-flex align-items-center justify-content-center">
+                <i class="bi bi-box-arrow-in-right me-1"></i> ورود
+            </button>
+        </div>
+
+     
+        <div class="text-center mt-4 w-100">
+            <p class="text-muted">ورود برای نقش‌های خاص:</p>
+            <div class=" other btn-group   g-1 ">
+                <button type="button" class="btn btn-outline-secondary rounded-1 "> انباردار</button>
+                <button type="button" class="btn btn-outline-secondary rounded-1  "> دفتر
+                    فنی</button>
+                <button type="button" class="btn btn-outline-secondary rounded-1 ">
+                    سرپرست کارگاه</button>
+                <button type="button" class="btn btn-outline-secondary rounded-1 ">
+                    نماینده سازمان</button>
+            </div>
+        </div>
+    </form>
+
+</body>
+
+</html>
